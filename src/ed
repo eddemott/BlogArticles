@@ -1,0 +1,179 @@
+	    <div class="row">
+	      <ul class="small-12 columns max-width small-centered no-bullet panel">
+	        <li class="row panel callout">
+	        	<div class="row">
+	        		
+	        	</div>
+	          <div class="small-12 medium-6 columns">
+	          	<h4>Search</h4>
+	          </div>
+	          <div class="small-12 medium-6 columns">
+	          	<input type="search">
+	          </div>
+	        </li><!-- Search -->
+	        <li class="row panel callout">
+	          <div class="small-12 medium-6 columns">
+	            <h4>Tel</h4>
+	          </div>
+	          <div class="small-12 medium-6 columns">
+	            <input type="tel">
+	          </div>
+	        </li><!-- Tel -->
+	        <li class="row panel callout">
+	          <div class="small-12 medium-6 columns">
+	            <h4>URL</h4>
+	          </div>
+	          <div class="small-12 medium-6 columns">
+	            <input type="url">
+	          </div>
+	        </li><!-- URL -->
+	        <li class="row panel callout">
+	          <div class="small-12 medium-6 columns">
+	            <h4>Email</h4>
+	          </div>
+	          <div class="small-12 medium-6 columns">
+	            <input type="email">
+	          </div>
+	        </li><!-- email -->
+	        <li class="row panel callout">
+	          <div class="small-12 medium-6 columns">
+	            <h4>Date</h4>
+	          </div>
+	          <div class="small-12 medium-6 columns">
+	            <input type="date">
+	          </div>
+	        </li><!-- date -->
+	        <li class="row panel callout">
+	          <div class="small-12 medium-6 columns">
+	            <h4>Week</h4>
+	          </div>
+	          <div class="small-12 medium-6 columns">
+	            <input type="week">
+	          </div>
+	        </li><!-- week -->
+	        <li class="row panel callout">
+	          <div class="small-12 medium-6 columns">
+	            <h4>Month</h4>
+	          </div>
+	          <div class="small-12 medium-6 columns">
+	            <input type="month">
+	          </div>
+	        </li><!-- month -->
+	        <li class="row panel callout">
+	          <div class="small-12 medium-6 columns">
+	            <h4>Time</h4>
+	          </div>
+	          <div class="small-12 medium-6 columns">
+	            <input type="time">
+	          </div>
+	        </li><!-- time -->
+	        <li class="row panel callout">
+	          <div class="small-12 medium-6 columns">
+	            <h4>DateTime</h4>
+	          </div>
+	          <div class="small-12 medium-6 columns">
+	            <input type="datetime">
+	          </div>
+	        </li><!-- datetime -->
+	        <li class="row panel callout">
+	          <div class="small-12 medium-6 columns">
+	            <h4>DateTime Local</h4>
+	          </div>
+	          <div class="small-12 medium-6 columns">
+	            <input type="datetime-local">
+	          </div>
+	        </li><!-- dateTimeLocal -->
+	        <li class="row panel callout">
+	          <div class="small-12 medium-6 columns">
+	            <h4>Number</h4>
+	          </div>
+	          <div class="small-12 medium-6 columns">
+	            <input type="number">
+	          </div>
+	        </li><!-- number -->
+	        <li class="row panel callout">
+	          <div class="small-12 medium-6 columns">
+	            <h4>Range</h4>
+	          </div>
+	          <div class="small-12 medium-6 columns">
+	            <input type="range">
+	          </div>
+	        </li><!-- range -->
+	        <li class="row panel callout">
+	          <div class="small-12 medium-6 columns">
+	            <h4>Color</h4>
+	          </div>
+	          <div class="small-12 medium-6 columns">
+	            <input type="color">
+	          </div>
+	        </li><!-- color -->
+	        <li class="row panel callout">
+	          <div class="small-12 medium-6 columns">
+	            <h4>Select</h4>
+	          </div>
+	          <div class="small-12 medium-6 columns">
+	            <input type="">
+	          </div>
+	        </li>
+	        <li class="row panel callout">
+	          <div class="small-12 medium-6 columns">
+	            <h4>FieldSet</h4>
+	          </div>
+	          <div class="small-12 medium-6 columns">
+	            <input type="">
+	          </div>
+	        </li>
+	        <li class="row panel callout">
+	          <div class="small-12 medium-6 columns">
+	            <h4>DataList</h4>
+	          </div>
+	          <div class="small-12 medium-6 columns">
+	            <input list="country" name="country">
+	              <datalist id="country">
+	                <option value="England">
+	                <option value="Wales">
+	                <option value="Scotland">
+	                <option value="Ireland">
+	              </datalist>
+	          </div>
+	        </li><!-- dateList -->
+	        <li class="row panel callout">
+	          <div class="small-12 medium-6 columns">
+	            <h4>KeyGen</h4>
+	          </div>
+	          <div class="small-12 medium-6 columns">
+	            <input type="">
+	          </div>
+	        </li><!-- keyGen -->
+	        <li class="row panel callout">
+	          <div class="small-12 medium-6 columns">
+	            <h4>Output</h4>
+	          </div>
+	          <div class="small-12 medium-6 columns">
+	            <form class="row" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+	            <div class="small-3 columns"><input type="number" id="a" value="50"></div>
+	            <div class="small-1 columns centered line">+</div>
+	            <div class="small-3 columns"><input type="number" id="b" value="50"></div>
+	            <div class="small-1 columns centered line">=</div>
+	            <div class="small-4 columns line"><output name="x" for="a b"></output></div>
+	            </form>
+	          </div>
+	        </li><!-- output -->
+	        <li class="row panel callout">
+	          <div class="small-12 medium-6 columns">
+	            <h4>Progress</h4>
+	          </div>
+	          <div class="small-12 medium-6 columns">
+	            <progress value="60" max="100">60%</progress>
+	          </div>
+	        </li><!-- Progress -->
+	        <li class="row panel callout">
+	          <div class="small-12 medium-6 columns">
+	            <h4>Meter</h4>
+	          </div>
+	          <div class="small-12 medium-6 columns">
+	            <meter min="0" max="100" value="20">20 of 100</meter>
+	          </div>
+	        </li><!-- Meter -->
+	      </ul>
+	    </div>

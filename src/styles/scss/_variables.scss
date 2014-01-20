@@ -1,0 +1,26 @@
+$row-width: rem-calc(4000);
+$column-gutter: rem-calc(30);
+$total-columns: 12;
+$rem-base: 16px;
+$panel-bg: white;
+
+
+
+.max-width {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.centered {
+	text-align: center;
+}
+
+.line {
+	line-height: 2.4;
+}
+
+ul {
+	li {
+		text-decoration: none;
+	}
+}

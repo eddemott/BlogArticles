@@ -1,0 +1,11 @@
+{
+  "name": "BlogArticles",
+  "version": "0.0.1",
+  "dependencies": {
+		"angular": "latest",
+		"foundation": "latest"
+},
+  "devDependencies": {
+    "angular-mocks": "latest"
+  }
+}
