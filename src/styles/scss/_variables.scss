@@ -1,10 +1,23 @@
+@import "../../../dist/vendor/foundation/scss/foundation/components/panels";
+
 $row-width: rem-calc(4000);
 $column-gutter: rem-calc(30);
 $total-columns: 12;
 $rem-base: 16px;
 $panel-bg: white;
 
+.custom-panel {
 
+  @include panel(
+    $bg: #E45053,
+    $padding: 20px
+  );
+}
+
+.padding-fix {
+	padding: 1.25rem !important;
+	margin-bottom: 1.25rem !important;
+}
 
 .max-width {
 	max-width: 1200px;

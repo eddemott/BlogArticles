@@ -1,33 +1,3 @@
-.max-width {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-/* line 14, ../scss/_variables.scss */
-.centered {
-  text-align: center;
-}
-
-/* line 18, ../scss/_variables.scss */
-.line {
-  line-height: 2.4;
-}
-
-/* line 23, ../scss/_variables.scss */
-ul li {
-  text-decoration: none;
-}
-
-/* line 29, ../scss/_variables.scss */
-.attribute h4 {
-  text-align: center;
-}
-/* line 32, ../scss/_variables.scss */
-.attribute li {
-  text-align: center;
-}
-
-/* line 293, ../../../dist/vendor/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-small {
   font-family: "/only screen and (max-width: 40em)/";
   width: 0em;
@@ -210,6 +180,144 @@ textarea {
 /* line 398, ../../../dist/vendor/foundation/scss/foundation/components/_global.scss */
 select {
   width: 100%;
+}
+
+/* Panels */
+/* line 70, ../../../dist/vendor/foundation/scss/foundation/components/_panels.scss */
+.panel {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d8d8d8;
+  margin-bottom: 1.25rem;
+  padding: 1.25rem;
+  background: #f2f2f2;
+}
+/* line 48, ../../../dist/vendor/foundation/scss/foundation/components/_panels.scss */
+.panel > :first-child {
+  margin-top: 0;
+}
+/* line 49, ../../../dist/vendor/foundation/scss/foundation/components/_panels.scss */
+.panel > :last-child {
+  margin-bottom: 0;
+}
+/* line 54, ../../../dist/vendor/foundation/scss/foundation/components/_panels.scss */
+.panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6, .panel p {
+  color: #333333;
+}
+/* line 58, ../../../dist/vendor/foundation/scss/foundation/components/_panels.scss */
+.panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6 {
+  line-height: 1;
+  margin-bottom: 0.625rem;
+}
+/* line 60, ../../../dist/vendor/foundation/scss/foundation/components/_panels.scss */
+.panel h1.subheader, .panel h2.subheader, .panel h3.subheader, .panel h4.subheader, .panel h5.subheader, .panel h6.subheader {
+  line-height: 1.4;
+}
+/* line 72, ../../../dist/vendor/foundation/scss/foundation/components/_panels.scss */
+.panel.callout {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #b6edff;
+  margin-bottom: 1.25rem;
+  padding: 1.25rem;
+  background: #ecfaff;
+}
+/* line 48, ../../../dist/vendor/foundation/scss/foundation/components/_panels.scss */
+.panel.callout > :first-child {
+  margin-top: 0;
+}
+/* line 49, ../../../dist/vendor/foundation/scss/foundation/components/_panels.scss */
+.panel.callout > :last-child {
+  margin-bottom: 0;
+}
+/* line 54, ../../../dist/vendor/foundation/scss/foundation/components/_panels.scss */
+.panel.callout h1, .panel.callout h2, .panel.callout h3, .panel.callout h4, .panel.callout h5, .panel.callout h6, .panel.callout p {
+  color: #333333;
+}
+/* line 58, ../../../dist/vendor/foundation/scss/foundation/components/_panels.scss */
+.panel.callout h1, .panel.callout h2, .panel.callout h3, .panel.callout h4, .panel.callout h5, .panel.callout h6 {
+  line-height: 1;
+  margin-bottom: 0.625rem;
+}
+/* line 60, ../../../dist/vendor/foundation/scss/foundation/components/_panels.scss */
+.panel.callout h1.subheader, .panel.callout h2.subheader, .panel.callout h3.subheader, .panel.callout h4.subheader, .panel.callout h5.subheader, .panel.callout h6.subheader {
+  line-height: 1.4;
+}
+/* line 74, ../../../dist/vendor/foundation/scss/foundation/components/_panels.scss */
+.panel.callout a {
+  color: #008cba;
+}
+/* line 79, ../../../dist/vendor/foundation/scss/foundation/components/_panels.scss */
+.panel.radius {
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 9, ../scss/_variables.scss */
+.custom-panel {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #df3336;
+  margin-bottom: 1.25rem;
+  padding: 20px;
+  background: #e45053;
+}
+/* line 48, ../../../dist/vendor/foundation/scss/foundation/components/_panels.scss */
+.custom-panel > :first-child {
+  margin-top: 0;
+}
+/* line 49, ../../../dist/vendor/foundation/scss/foundation/components/_panels.scss */
+.custom-panel > :last-child {
+  margin-bottom: 0;
+}
+/* line 54, ../../../dist/vendor/foundation/scss/foundation/components/_panels.scss */
+.custom-panel h1, .custom-panel h2, .custom-panel h3, .custom-panel h4, .custom-panel h5, .custom-panel h6, .custom-panel p {
+  color: #333333;
+}
+/* line 58, ../../../dist/vendor/foundation/scss/foundation/components/_panels.scss */
+.custom-panel h1, .custom-panel h2, .custom-panel h3, .custom-panel h4, .custom-panel h5, .custom-panel h6 {
+  line-height: 1;
+  margin-bottom: 0.625rem;
+}
+/* line 60, ../../../dist/vendor/foundation/scss/foundation/components/_panels.scss */
+.custom-panel h1.subheader, .custom-panel h2.subheader, .custom-panel h3.subheader, .custom-panel h4.subheader, .custom-panel h5.subheader, .custom-panel h6.subheader {
+  line-height: 1.4;
+}
+
+/* line 17, ../scss/_variables.scss */
+.padding-fix {
+  padding: 1.25rem !important;
+  margin-bottom: 1.25rem !important;
+}
+
+/* line 22, ../scss/_variables.scss */
+.max-width {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* line 27, ../scss/_variables.scss */
+.centered {
+  text-align: center;
+}
+
+/* line 31, ../scss/_variables.scss */
+.line {
+  line-height: 2.4;
+}
+
+/* line 36, ../scss/_variables.scss */
+ul li {
+  text-decoration: none;
+}
+
+/* line 42, ../scss/_variables.scss */
+.attribute h4 {
+  text-align: center;
+}
+/* line 45, ../scss/_variables.scss */
+.attribute li {
+  text-align: center;
 }
 
 /* line 198, ../../../dist/vendor/foundation/scss/foundation/components/_grid.scss */
@@ -4524,77 +4632,6 @@ ul.pagination li {
 .pagination-centered ul.pagination li {
   float: none;
   display: inline-block;
-}
-
-/* Panels */
-/* line 70, ../../../dist/vendor/foundation/scss/foundation/components/_panels.scss */
-.panel {
-  border-style: solid;
-  border-width: 1px;
-  border-color: #e3e3e3;
-  margin-bottom: 1.25rem;
-  padding: 1.25rem;
-  background: white;
-}
-/* line 48, ../../../dist/vendor/foundation/scss/foundation/components/_panels.scss */
-.panel > :first-child {
-  margin-top: 0;
-}
-/* line 49, ../../../dist/vendor/foundation/scss/foundation/components/_panels.scss */
-.panel > :last-child {
-  margin-bottom: 0;
-}
-/* line 54, ../../../dist/vendor/foundation/scss/foundation/components/_panels.scss */
-.panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6, .panel p {
-  color: #333333;
-}
-/* line 58, ../../../dist/vendor/foundation/scss/foundation/components/_panels.scss */
-.panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6 {
-  line-height: 1;
-  margin-bottom: 0.625rem;
-}
-/* line 60, ../../../dist/vendor/foundation/scss/foundation/components/_panels.scss */
-.panel h1.subheader, .panel h2.subheader, .panel h3.subheader, .panel h4.subheader, .panel h5.subheader, .panel h6.subheader {
-  line-height: 1.4;
-}
-/* line 72, ../../../dist/vendor/foundation/scss/foundation/components/_panels.scss */
-.panel.callout {
-  border-style: solid;
-  border-width: 1px;
-  border-color: #b6edff;
-  margin-bottom: 1.25rem;
-  padding: 1.25rem;
-  background: #ecfaff;
-}
-/* line 48, ../../../dist/vendor/foundation/scss/foundation/components/_panels.scss */
-.panel.callout > :first-child {
-  margin-top: 0;
-}
-/* line 49, ../../../dist/vendor/foundation/scss/foundation/components/_panels.scss */
-.panel.callout > :last-child {
-  margin-bottom: 0;
-}
-/* line 54, ../../../dist/vendor/foundation/scss/foundation/components/_panels.scss */
-.panel.callout h1, .panel.callout h2, .panel.callout h3, .panel.callout h4, .panel.callout h5, .panel.callout h6, .panel.callout p {
-  color: #333333;
-}
-/* line 58, ../../../dist/vendor/foundation/scss/foundation/components/_panels.scss */
-.panel.callout h1, .panel.callout h2, .panel.callout h3, .panel.callout h4, .panel.callout h5, .panel.callout h6 {
-  line-height: 1;
-  margin-bottom: 0.625rem;
-}
-/* line 60, ../../../dist/vendor/foundation/scss/foundation/components/_panels.scss */
-.panel.callout h1.subheader, .panel.callout h2.subheader, .panel.callout h3.subheader, .panel.callout h4.subheader, .panel.callout h5.subheader, .panel.callout h6.subheader {
-  line-height: 1.4;
-}
-/* line 74, ../../../dist/vendor/foundation/scss/foundation/components/_panels.scss */
-.panel.callout a {
-  color: #008cba;
-}
-/* line 79, ../../../dist/vendor/foundation/scss/foundation/components/_panels.scss */
-.panel.radius {
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
 }
 
 /* Pricing Tables */
